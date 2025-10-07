@@ -21,3 +21,8 @@ mlops-2025-python-in-production-lab = "mlops_2025_python_in_production_lab:main"
 [build-system]
 requires = ["uv_build>=0.8.24,<0.9.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+]
