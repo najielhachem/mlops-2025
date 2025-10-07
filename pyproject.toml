@@ -1,10 +1,10 @@
 [project]
-name = "mlops-2025-python-in-production-lab"
+name = "mlops-2025"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
-    { name = "christa", email = "christamouaikel@gmail.com" }
+    { name = "Ali Mahfouz", email = "ali.mahfouzz@outlook.com" }
 ]
 requires-python = ">=3.12"
 dependencies = [
@@ -16,10 +16,10 @@ dependencies = [
 ]
 
 [project.scripts]
-mlops-2025-python-in-production-lab = "mlops_2025_python_in_production_lab:main"
+mlops-2025 = "mlops_2025:main"
 
 [build-system]
-requires = ["uv_build>=0.8.24,<0.9.0"]
+requires = ["uv_build>=0.8.22,<0.9.0"]
 build-backend = "uv_build"
 
 [dependency-groups]

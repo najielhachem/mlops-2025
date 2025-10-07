@@ -1100,7 +1100,7 @@ wheels = [
 ]
 
 [[package]]
-name = "mlops-2025-python-in-production-lab"
+name = "mlops-2025"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
