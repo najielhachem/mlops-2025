@@ -1,0 +1,23 @@
+[project]
+name = "mlops-2025-python-in-production-lab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "christa", email = "christamouaikel@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.6",
+    "numpy>=2.3.3",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
+    "seaborn>=0.13.2",
+]
+
+[project.scripts]
+mlops-2025-python-in-production-lab = "mlops_2025_python_in_production_lab:main"
+
+[build-system]
+requires = ["uv_build>=0.8.24,<0.9.0"]
+build-backend = "uv_build"
